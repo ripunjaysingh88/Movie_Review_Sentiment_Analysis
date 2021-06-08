@@ -1,1 +1,2 @@
-# app_lstm
+# Movie Sentiment Analysis using LSTM
+## Model Performance
