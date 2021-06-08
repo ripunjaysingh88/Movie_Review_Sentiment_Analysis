@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class ='container'>
+    {% if result > 0.50 %}
+        <h1>Review is <strong>positive</strong> with <strong>{{result}}</strong> probability.</h1>
+        <img src="static\postive.png" class="img-rounded" alt="Cinque Terre" width="271" height="312"> 
+    {% else %}
+        <h1>Review is <strong>negative</strong> with <strong>{{result}}</strong> probability.</h1>
+        <img src="static\negative.png" class="img-rounded" alt="Cinque Terre" width="271" height="312">
+    
+    {% endif %}
+
+    <a href="{{ url_for('index')}}" class="btn btn-default">Back</a>
+</div>
+
+{% endblock %}
