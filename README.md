@@ -17,7 +17,7 @@ Build the model locally and exposed it as a REST API using Tensorflow Serving an
 ![](images/training_validation_loss.JPG)
 
 ## Model Prediction in a Flask App
-#### Review
+### Review
 ![](images/review.png)
-#### Prediction
+### Prediction
 ![](images/result.png)
