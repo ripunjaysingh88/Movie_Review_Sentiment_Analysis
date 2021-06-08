@@ -12,6 +12,7 @@ Build the model locally and exposed it as a REST API using Tensorflow Serving an
 ## Learning Curve
 ### Training and Validation Accuracy
 ![](images/training_validation_accuracy.JPG)
+
 ### Training and validation loss
 ![](images/training_validation_loss.JPG)
 
