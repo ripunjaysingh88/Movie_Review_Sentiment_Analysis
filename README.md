@@ -13,7 +13,7 @@ Build the model locally and exposed it as a REST API using Tensorflow Serving an
 ### Training and Validation Accuracy
 ![](images/training_validation_accuracy.JPG)
 
-### Training and validation loss
+### Training and Validation Loss
 ![](images/training_validation_loss.JPG)
 
 ## Model Prediction in a Flask App
