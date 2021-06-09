@@ -21,3 +21,5 @@ Build the model locally and exposed it as a REST API using Tensorflow Serving an
 ![](images/review.png)
 ### Prediction
 ![](images/result.png)
+## Reference 
+https://www.tensorflow.org/tfx/guide/serving
